@@ -45,7 +45,7 @@ func main() {
 		w.Write(data)
 	})
 
-	err := http.ListenAndServe(":22", nil)
+	err := http.ListenAndServe(":8000", nil)
 	if err != nil {
 		panic(err)
 	}

@@ -7,3 +7,5 @@ COPY ./ /usr/src/
 RUN echo "building"
 
 CMD go run main.go
+
+EXPOSE 8000
